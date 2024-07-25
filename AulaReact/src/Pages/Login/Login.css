@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(66, 66, 66);
+}
+
+.Loginform {
+    background-color: rgb(7, 45, 92);
+    width: 250px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.LoginTitle{
+    display: flex;
+    justify-content: center;
+}
+
+.Loginform input[type="text"], 
+.Loginform input[type="password"] {
+    border: none; 
+    background: none;
+    outline: none; 
+    width: 100%; 
+    padding: 0; 
+    margin: 0; 
+    line-height: normal;
+    font-size: 16px; 
+    border-bottom: 1px solid blue;
+}
+
+.buttonLogin{
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    background-color: rgb(83, 83, 247);
+    color: aliceblue;
+    border-style: none;
+    border-radius: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    padding: 10px;
+}
+
